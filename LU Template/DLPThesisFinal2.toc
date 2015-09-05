@@ -1,0 +1,87 @@
+\select@language {british}
+\contentsline {chapter}{Preface}{2}{section*.1}
+\contentsline {chapter}{Declaration of Authorship}{5}{section*.2}
+\contentsline {chapter}{Acknowledgements}{6}{section*.3}
+\contentsline {chapter}{Abstract}{7}{section*.4}
+\contentsline {chapter}{Notation}{8}{section*.5}
+\contentsline {chapter}{Pseudocode}{9}{section*.6}
+\contentsline {chapter}{\numberline {1}Overview of Relevant Topics}{13}{chapter.1}
+\contentsline {section}{\numberline {1.1}Groups}{13}{section.1.1}
+\contentsline {subsection}{\numberline {1.1.1}Definition}{13}{subsection.1.1.1}
+\contentsline {section}{\numberline {1.2}Finite Fields}{14}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}Basic Properties}{14}{subsection.1.2.1}
+\contentsline {section}{\numberline {1.3}Construction of $\mathbb {F}_{p^n}$}{15}{section.1.3}
+\contentsline {chapter}{\numberline {2}Literature Review}{16}{chapter.2}
+\contentsline {section}{\numberline {2.1}Cryptographic Development}{16}{section.2.1}
+\contentsline {section}{\numberline {2.2}Public-Key Distribution}{17}{section.2.2}
+\contentsline {section}{\numberline {2.3}Computing Logarithms}{17}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Computational Complexity Issues}{20}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Reduction}{21}{subsection.2.3.2}
+\contentsline {subsubsection}{\numberline {2.3.2.1}The first reduction}{22}{subsubsection.2.3.2.1}
+\contentsline {subsubsection}{\numberline {2.3.2.2}The next reduction}{22}{subsubsection.2.3.2.2}
+\contentsline {section}{\numberline {2.4}Historical Perspective}{24}{section.2.4}
+\contentsline {chapter}{\numberline {3}Discrete Logarithms and Cryptosystems}{25}{chapter.3}
+\contentsline {section}{\numberline {3.1}Discrete Logarithms in Finite Fields}{25}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}The Discrete Logarithm Problem in $\mathbb {F}_p$}{27}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}The Discrete Logarithm Problem in $\mathbb {F}_{2^n}$}{27}{subsection.3.1.2}
+\contentsline {section}{\numberline {3.2}Properties of the Discrete Logarithm}{28}{section.3.2}
+\contentsline {section}{\numberline {3.3}Complexity}{29}{section.3.3}
+\contentsline {section}{\numberline {3.4}Public Key Cryptography with Discrete Logarithms}{31}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}The Diffie-Hellman Key Exchange}{32}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}The ElGamal Cryptosystem}{33}{subsection.3.4.2}
+\contentsline {chapter}{\numberline {4}Efficient Computations in Finite Fields}{35}{chapter.4}
+\contentsline {section}{\numberline {4.1}Finite Field Representations}{35}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Fields of Prime Order}{36}{subsection.4.1.1}
+\contentsline {subsubsection}{\numberline {4.1.1.1}Properties of Modular Arithmetic}{36}{subsubsection.4.1.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Finite Fields of Prime Power Order}{37}{subsection.4.1.2}
+\contentsline {subsubsection}{\numberline {4.1.2.1}Polynomial Arithmetic}{38}{subsubsection.4.1.2.1}
+\contentsline {subsection}{\numberline {4.1.3}Further Reading}{40}{subsection.4.1.3}
+\contentsline {section}{\numberline {4.2}Discrete Exponentiation}{40}{section.4.2}
+\contentsline {section}{\numberline {4.3}Exponentiation by Squaring}{41}{section.4.3}
+\contentsline {section}{\numberline {4.4}Irreducible Polynomials}{41}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Testing for irreducibility}{43}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}Generating irreducible polynomials}{44}{subsection.4.4.2}
+\contentsline {section}{\numberline {4.5}Primitive Polynomials}{44}{section.4.5}
+\contentsline {subsection}{\numberline {4.5.1}Further Reading}{45}{subsection.4.5.1}
+\contentsline {chapter}{\numberline {5}Determining the Discrete Logarithm}{47}{chapter.5}
+\contentsline {section}{\numberline {5.1}Procedures in Generic Discrete Logarithm Algorithms}{48}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Extended Euclidean Algorithm}{48}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}Multiplicative Inverse}{49}{subsection.5.1.2}
+\contentsline {subsection}{\numberline {5.1.3}Square-and-Multiply}{49}{subsection.5.1.3}
+\contentsline {subsection}{\numberline {5.1.4}Chinese Remainder Theorem, CRT}{50}{subsection.5.1.4}
+\contentsline {subsection}{\numberline {5.1.5}Gauss's Algorithm}{50}{subsection.5.1.5}
+\contentsline {subsection}{\numberline {5.1.6}Floyd's Cycle-finding algorithm}{50}{subsection.5.1.6}
+\contentsline {section}{\numberline {5.2}Generic Discrete Logarithm Algorithms}{50}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Brute-Force Search}{51}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Shanks' ``Baby-Step Giant-Step" Algorithm}{51}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.3}Pollard's $\rho $ Algorithm for Discrete Logarithms}{53}{subsection.5.2.3}
+\contentsline {subsection}{\numberline {5.2.4}Pohlig-Hellman Algorithm}{56}{subsection.5.2.4}
+\contentsline {subsection}{\numberline {5.2.5}Further Reading}{59}{subsection.5.2.5}
+\contentsline {section}{\numberline {5.3}Non-generic Discrete Logarithm Algorithm}{59}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Index-Calculus Algorithm}{59}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Index-Calculus Algorithm in $\mathbb {F}_{p}^{*}$}{62}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {5.3.3}Index-Calculus Algorithm in $\mathbb {F}_{2^n}^{*}$}{63}{subsection.5.3.3}
+\contentsline {chapter}{\numberline {6}Implementation in C++}{65}{chapter.6}
+\contentsline {section}{\numberline {6.1}Implementation for $\mathbb {F}_p$}{66}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}Functionality}{66}{subsection.6.1.1}
+\contentsline {subsection}{\numberline {6.1.2}Efficiency}{67}{subsection.6.1.2}
+\contentsline {subsection}{\numberline {6.1.3}Testing and Debugging Procedures}{67}{subsection.6.1.3}
+\contentsline {subsection}{\numberline {6.1.4}Elapsed Time}{69}{subsection.6.1.4}
+\contentsline {subsection}{\numberline {6.1.5}Implementation Issues}{69}{subsection.6.1.5}
+\contentsline {section}{\numberline {6.2}Implementation for $\mathbb {F}_{2^n}$}{70}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Functionality}{71}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}Efficiency}{73}{subsection.6.2.2}
+\contentsline {subsection}{\numberline {6.2.3}Testing and Debugging Procedures}{73}{subsection.6.2.3}
+\contentsline {subsection}{\numberline {6.2.4}Elapsed Time}{73}{subsection.6.2.4}
+\contentsline {subsection}{\numberline {6.2.5}Implementation Issues}{79}{subsection.6.2.5}
+\contentsline {chapter}{\numberline {7}Conclusion}{80}{chapter.7}
+\contentsline {chapter}{\numberline {A}Source Codes}{85}{appendix.A}
+\contentsline {section}{\numberline {A.1}Algorithms for $\mathbb {F}_p$}{85}{section.A.1}
+\contentsline {subsection}{\numberline {A.1.1}Brute-Force Search}{85}{subsection.A.1.1}
+\contentsline {subsection}{\numberline {A.1.2}Shanks' ``Baby-Step Giant-Step" Method}{87}{subsection.A.1.2}
+\contentsline {subsection}{\numberline {A.1.3}Pollard's $\rho $ algorithm for logarithms}{94}{subsection.A.1.3}
+\contentsline {subsection}{\numberline {A.1.4}Pohlig-Hellman Algorithm}{100}{subsection.A.1.4}
+\contentsline {section}{\numberline {A.2}Algorithms for $\mathbb {F}_{p^n}$}{111}{section.A.2}
+\contentsline {subsection}{\numberline {A.2.1}Brute-Force Search}{111}{subsection.A.2.1}
+\contentsline {subsection}{\numberline {A.2.2}Shanks' ``Baby-Step Giant-Step" Method}{114}{subsection.A.2.2}
+\contentsline {subsection}{\numberline {A.2.3}Pollard's $\rho $ algorithm for logarithms}{122}{subsection.A.2.3}

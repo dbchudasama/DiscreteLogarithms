@@ -1,0 +1,128 @@
+ALGs UDP
+
+Certain NATs have implemented Application Level Gateways (ALGs) for
+   various protocols, including protocols for negotiating peer-to-peer
+   sessions, such as SIP.
+
+   Certain NATs have these ALGs turned on permanently, others have them
+   turned on by default but allow them to be turned off, and others have
+   them turned off by default but allow them be turned on.
+
+   NAT ALGs may interfere with UNSAF methods or protocols that try to be
+   NAT-aware and therefore must be used with extreme caution.
+
+   REQ-10:  To eliminate interference with UNSAF NAT traversal
+      mechanisms and allow integrity protection of UDP communications,
+      NAT ALGs for UDP-based protocols SHOULD be turned off.  Future
+      standards track specifications that define ALGs can update this to
+      recommend the defaults for the ALGs that they define.
+
+      a) If a NAT includes ALGs, it is RECOMMENDED that the NAT allow
+         the NAT administrator to enable or disable each ALG separately.
+
+   Justification:  NAT ALGs may interfere with UNSAF methods.
+
+      a) This requirement allows the user to enable those ALGs that are
+         necessary to aid in the operation of some applications without
+         enabling ALGs, which interfere with the operation of other
+         applications.
+
+
+
+
+
+
+
+
+Hairpinning Behavior UDP
+
+If two hosts (called X1 and X2) are behind the same NAT and
+   exchanging traffic, the NAT may allocate an address on the outside of
+   the NAT for X2, called X2':x2'.  If X1 sends traffic to X2':x2', it
+   goes to the NAT, which must relay the traffic from X1 to X2.  This is
+   referred to as hairpinning and is illustrated below.
+
+     NAT
+   +----+ from X1:x1 to X2':x2'   +-----+ X1':x1'
+   | X1 |>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--+---
+   +----+                         |  v  |
+                                  |  v  |
+                                  |  v  |
+                                  |  v  |
+   +----+ from X1':x1' to X2:x2   |  v  | X2':x2'
+   | X2 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<--+---
+   +----+                         +-----+
+
+                           Hairpinning Behavior
+
+   Hairpinning allows two endpoints on the internal side of the NAT to
+   communicate even if they only use each other's external IP addresses
+   and ports.
+
+   More formally, a NAT that supports hairpinning forwards packets
+   originating from an internal address, X1:x1, destined for an external
+   address X2':x2' that has an active mapping to an internal address
+   X2:x2, back to that internal address, X2:x2.  Note that typically X1'
+   is the same as X2'.
+
+   Furthermore, the NAT may present the hairpinned packet with either an
+   internal (X1:x1) or an external (X1':x1') source IP address and port.
+   Therefore, the hairpinning NAT behavior can be either "External
+   source IP address and port" or "Internal source IP address and port".
+   "Internal source IP address and port" may cause problems by confusing
+   implementations that expect an external IP address and port.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Filtering Behavior UDP 
+
+   This section describes various filtering behaviors observed in NATs.
+
+   When an internal endpoint opens an outgoing session through a NAT,
+   the NAT assigns a filtering rule for the mapping between an internal
+   IP:port (X:x) and external IP:port (Y:y) tuple.
+
+   The key behavior to describe is what criteria are used by the NAT to
+   filter packets originating from specific external endpoints.
+
+      Endpoint-Independent Filtering:
+
+         The NAT filters out only packets not destined to the internal
+         address and port X:x, regardless of the external IP address and
+         port source (Z:z).  The NAT forwards any packets destined to
+         X:x.  In other words, sending packets from the internal side of
+         the NAT to any external IP address is sufficient to allow any
+         packets back to the internal endpoint.
+
+      Address-Dependent Filtering:
+
+         The NAT filters out packets not destined to the internal
+         address X:x.  Additionally, the NAT will filter out packets
+         from Y:y destined for the internal endpoint X:x if X:x has not
+         sent packets to Y:any previously (independently of the port
+         used by Y).  In other words, for receiving packets from a
+         specific external endpoint, it is necessary for the internal
+         endpoint to send packets first to that specific external
+         endpoint's IP address.
+
+      Address and Port-Dependent Filtering:
+
+         This is similar to the previous behavior, except that the
+         external port is also relevant.  The NAT filters out packets
+         not destined for the internal address X:x.  Additionally, the
+         NAT will filter out packets from Y:y destined for the internal
+         endpoint X:x if X:x has not sent packets to Y:y previously.  In
+         other words, for receiving packets from a specific external
+         endpoint, it is necessary for the internal endpoint to send
+         packets first to that external endpoint's IP address and port.

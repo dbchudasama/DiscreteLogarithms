@@ -1,0 +1,66 @@
+\BOOKMARK [0][-]{section*.1}{Abstract}{}% 1
+\BOOKMARK [0][-]{section*.2}{Acknowledgements}{}% 2
+\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 3
+\BOOKMARK [1][-]{section.1.1}{Background}{chapter.1}% 4
+\BOOKMARK [2][-]{subsection.1.1.1}{Analysis of the IPv6's Slow Adoption}{section.1.1}% 5
+\BOOKMARK [2][-]{subsection.1.1.2}{IPv4 Address Exhaustion Crisis}{section.1.1}% 6
+\BOOKMARK [1][-]{section.1.2}{Aims and Objectives}{chapter.1}% 7
+\BOOKMARK [0][-]{chapter.2}{Background}{}% 8
+\BOOKMARK [1][-]{section.2.1}{Network Address and Port Translators}{chapter.2}% 9
+\BOOKMARK [2][-]{subsection.2.1.1}{Requirements}{section.2.1}% 10
+\BOOKMARK [2][-]{subsection.2.1.2}{Issues}{section.2.1}% 11
+\BOOKMARK [1][-]{section.2.2}{ISP Address Sharing}{chapter.2}% 12
+\BOOKMARK [2][-]{subsection.2.2.1}{Requirements}{section.2.2}% 13
+\BOOKMARK [2][-]{subsection.2.2.2}{Issues}{section.2.2}% 14
+\BOOKMARK [0][-]{chapter.3}{Literature Review}{}% 15
+\BOOKMARK [1][-]{section.3.1}{Address Sharing Mechanisms}{chapter.3}% 16
+\BOOKMARK [2][-]{subsection.3.1.1}{NAT444}{section.3.1}% 17
+\BOOKMARK [3][-]{subsubsection.3.1.1.1}{Features}{subsection.3.1.1}% 18
+\BOOKMARK [3][-]{subsubsection.3.1.1.2}{Process}{subsection.3.1.1}% 19
+\BOOKMARK [3][-]{subsubsection.3.1.1.3}{Implementation Notes}{subsection.3.1.1}% 20
+\BOOKMARK [2][-]{subsection.3.1.2}{Dual Stack Lite}{section.3.1}% 21
+\BOOKMARK [3][-]{subsubsection.3.1.2.1}{Features}{subsection.3.1.2}% 22
+\BOOKMARK [3][-]{subsubsection.3.1.2.2}{Process}{subsection.3.1.2}% 23
+\BOOKMARK [3][-]{subsubsection.3.1.2.3}{Implementation Notes}{subsection.3.1.2}% 24
+\BOOKMARK [2][-]{subsection.3.1.3}{NAT64}{section.3.1}% 25
+\BOOKMARK [3][-]{subsubsection.3.1.3.1}{Features}{subsection.3.1.3}% 26
+\BOOKMARK [3][-]{subsubsection.3.1.3.2}{Process}{subsection.3.1.3}% 27
+\BOOKMARK [3][-]{subsubsection.3.1.3.3}{Implementation Notes}{subsection.3.1.3}% 28
+\BOOKMARK [2][-]{subsection.3.1.4}{4RD}{section.3.1}% 29
+\BOOKMARK [3][-]{subsubsection.3.1.4.1}{Features}{subsection.3.1.4}% 30
+\BOOKMARK [3][-]{subsubsection.3.1.4.2}{Process}{subsection.3.1.4}% 31
+\BOOKMARK [3][-]{subsubsection.3.1.4.3}{Implementation Notes}{subsection.3.1.4}% 32
+\BOOKMARK [2][-]{subsection.3.1.5}{Lightweight 4over6}{section.3.1}% 33
+\BOOKMARK [3][-]{subsubsection.3.1.5.1}{Features}{subsection.3.1.5}% 34
+\BOOKMARK [3][-]{subsubsection.3.1.5.2}{Process}{subsection.3.1.5}% 35
+\BOOKMARK [3][-]{subsubsection.3.1.5.3}{Implementation Notes}{subsection.3.1.5}% 36
+\BOOKMARK [2][-]{subsection.3.1.6}{Stateless TUN}{section.3.1}% 37
+\BOOKMARK [3][-]{subsubsection.3.1.6.1}{Features}{subsection.3.1.6}% 38
+\BOOKMARK [3][-]{subsubsection.3.1.6.2}{Process}{subsection.3.1.6}% 39
+\BOOKMARK [3][-]{subsubsection.3.1.6.3}{Implementation Notes}{subsection.3.1.6}% 40
+\BOOKMARK [1][-]{section.3.2}{Security Issues}{chapter.3}% 41
+\BOOKMARK [2][-]{subsection.3.2.1}{Traditional Network Security Issues}{section.3.2}% 42
+\BOOKMARK [3][-]{subsubsection.3.2.1.1}{Denial of Service}{subsection.3.2.1}% 43
+\BOOKMARK [3][-]{subsubsection.3.2.1.2}{Filtering}{subsection.3.2.1}% 44
+\BOOKMARK [3][-]{subsubsection.3.2.1.3}{Port Randomization}{subsection.3.2.1}% 45
+\BOOKMARK [3][-]{subsubsection.3.2.1.4}{Routing}{subsection.3.2.1}% 46
+\BOOKMARK [3][-]{subsubsection.3.2.1.5}{Fragmentation}{subsection.3.2.1}% 47
+\BOOKMARK [2][-]{subsection.3.2.2}{Address Sharing Security Issues}{section.3.2}% 48
+\BOOKMARK [3][-]{subsubsection.3.2.2.1}{Mechanism Issues}{subsection.3.2.2}% 49
+\BOOKMARK [3][-]{subsubsection.3.2.2.2}{UPnP-IGD}{subsection.3.2.2}% 50
+\BOOKMARK [3][-]{subsubsection.3.2.2.3}{P.C.P}{subsection.3.2.2}% 51
+\BOOKMARK [0][-]{chapter.4}{Methodology}{}% 52
+\BOOKMARK [1][-]{section.4.1}{Example}{chapter.4}% 53
+\BOOKMARK [1][-]{section.4.2}{Challenges}{chapter.4}% 54
+\BOOKMARK [1][-]{section.4.3}{Abstractions}{chapter.4}% 55
+\BOOKMARK [1][-]{section.4.4}{Implementation}{chapter.4}% 56
+\BOOKMARK [0][-]{chapter.5}{Conclusions}{}% 57
+\BOOKMARK [1][-]{section.5.1}{Contributions}{chapter.5}% 58
+\BOOKMARK [1][-]{section.5.2}{Recommendations}{chapter.5}% 59
+\BOOKMARK [1][-]{section.5.3}{Future Works}{chapter.5}% 60
+\BOOKMARK [0][-]{chapter.6}{Project Plan}{}% 61
+\BOOKMARK [1][-]{section.6.1}{Year One}{chapter.6}% 62
+\BOOKMARK [1][-]{section.6.2}{Year Two}{chapter.6}% 63
+\BOOKMARK [1][-]{section.6.3}{Year Three}{chapter.6}% 64
+\BOOKMARK [0][-]{section*.7}{References}{}% 65
+\BOOKMARK [0][-]{appendix.A}{Example Appendix}{}% 66

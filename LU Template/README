@@ -1,0 +1,78 @@
+LUthesis
+=========
+
+luthesis.cls can be used to typeset theses according to Loughborough
+University standards.  Please read the comments in luthesis.cls for
+more information, including installation instructions.
+
+An example thesis is provided (luthesis.tex).  This also contaisn
+some comments on how to use the package; as these are TeX comments
+they won't show up in the PDF; you'll need to open the .tex file
+in a text editor.
+
+PLEASE NOTE THAT THIS IS NOT OFFICIAL UNIVERSITY MATERIAL -- THOUGH
+IT IS ACCURATE AT THE TIME OF WRITING.  YOU SHOULD ENSURE THAT YOU
+ARE INCLUDING THE LATEST (PDF) VERSIONS OF THE OFFICIAL THESIS FORMS
+FROM THE RESEARCH STUDENT OFFICE.  THIS CAN BE ACHIEVED BY REPLACING
+THE FILES DISTRIBUTED WITH LUTHESIS WITH THE LATEST OFFICIAL ONES
+(IN PDF FORM).
+
+This document class was written by Matthew Tylee Atkinson
+<M.T.Atkinson@lboro.ac.uk> and is provided for the use of other
+research students.  Should a future student arrive who is, or
+becomes, proficient in *TeX, then they should ensure it is updated
+in line with university guidelines and forms, should they change.
+Iain Phillips has also contributed.  He will happily check you have
+the latest version of everything.
+
+Change Log
+-----------
+
+19th Februrary 2012
+
+Removed need for lutransfer and added per year reports.  Now this
+is specified in the options.
+
+19th February 2012
+
+Thesis access form must be the first page.
+
+18th November 2011
+
+Updated thesis access form.
+
+1st September 2010
+
+Updated thesis access form.
+
+6th June 2010
+
+Added commands to \autoref et al to allow them to link to algorithms (from the algorithm + algorithmic packages) properly (i.e. with names).
+
+23rd May 2010
+
+Fixed a minor bug where \Autorefs did not give the plural for "Sections."
+
+4th May 2010
+
+The class now passes the required options to the ``color'' package to access predefined colour names (see <http://en.wikibooks.org/wiki/LaTeX/Colors>).
+
+Also fixed a possible bug whereby the 'mono' option would not be fully honoured.
+
+4th July 2009
+
+Fixed a bug whereby options passed to lutransfer were not getting passed through to luthesis.
+
+24th January 2009
+
+Added \Autoref, \Autorefs and \autorefs for hyperref users and explained in the documentation (a) what the point of these and \autoref is and (b) that it's very easy to use hyperref in a non-invasive non-text-colouring mode.
+
+12th January 2009
+
+Added a new documentclass: lutransfer. This is identical to luthesis in every way except for the document title being ``A Transfer Report'' and the thesis-specific certificates not being displayed, so you can use it for your transfer viva.
+
+Section titles will no longer be hypenated by default (people were getting comments back from transfer vivas saying this was ugly). A more subdued (i.e. professional-looking) default colour palette is used for documents using the hyperref package. ToC section numbering is more consistent in that we go down to the lowest possible level, though it is strongly recommended you avoid such a deeply-nested structure for your thesis.
+
+18th November 2008
+
+Fixed a serious error with page numbering; this is now done in the same way as most printed books: roman numerals until the first page of real content, though the first few pages don't have numbers printed as they are the title page and certificate/forms. The hyperref warnings about page numbers will now have disappeared.

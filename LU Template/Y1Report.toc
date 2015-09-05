@@ -1,0 +1,67 @@
+\select@language {british}
+\contentsline {chapter}{Abstract}{2}{section*.1}
+\contentsline {chapter}{Acknowledgements}{3}{section*.2}
+\contentsline {chapter}{\numberline {1}Introduction}{10}{chapter.1}
+\contentsline {section}{\numberline {1.1}Background}{11}{section.1.1}
+\contentsline {subsection}{\numberline {1.1.1}Analysis of the IPv6's Slow Adoption}{12}{subsection.1.1.1}
+\contentsline {subsection}{\numberline {1.1.2}IPv4 Address Exhaustion Crisis}{13}{subsection.1.1.2}
+\contentsline {section}{\numberline {1.2}Aims and Objectives}{14}{section.1.2}
+\contentsline {chapter}{\numberline {2}Background}{15}{chapter.2}
+\contentsline {section}{\numberline {2.1}Network Address and Port Translators}{16}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Requirements}{17}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Issues}{18}{subsection.2.1.2}
+\contentsline {section}{\numberline {2.2}ISP Address Sharing}{18}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Requirements}{19}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Issues}{20}{subsection.2.2.2}
+\contentsline {chapter}{\numberline {3}Literature Review}{22}{chapter.3}
+\contentsline {section}{\numberline {3.1}Address Sharing Mechanisms}{22}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}NAT444}{22}{subsection.3.1.1}
+\contentsline {subsubsection}{\numberline {3.1.1.1}Features}{23}{subsubsection.3.1.1.1}
+\contentsline {subsubsection}{\numberline {3.1.1.2}Process}{23}{subsubsection.3.1.1.2}
+\contentsline {subsubsection}{\numberline {3.1.1.3}Implementation Notes}{23}{subsubsection.3.1.1.3}
+\contentsline {subsection}{\numberline {3.1.2}Dual Stack Lite}{23}{subsection.3.1.2}
+\contentsline {subsubsection}{\numberline {3.1.2.1}Features}{23}{subsubsection.3.1.2.1}
+\contentsline {subsubsection}{\numberline {3.1.2.2}Process}{25}{subsubsection.3.1.2.2}
+\contentsline {subsubsection}{\numberline {3.1.2.3}Implementation Notes}{27}{subsubsection.3.1.2.3}
+\contentsline {subsection}{\numberline {3.1.3}NAT64}{27}{subsection.3.1.3}
+\contentsline {subsubsection}{\numberline {3.1.3.1}Features}{27}{subsubsection.3.1.3.1}
+\contentsline {subsubsection}{\numberline {3.1.3.2}Process}{28}{subsubsection.3.1.3.2}
+\contentsline {subsubsection}{\numberline {3.1.3.3}Implementation Notes}{29}{subsubsection.3.1.3.3}
+\contentsline {subsection}{\numberline {3.1.4}4RD}{29}{subsection.3.1.4}
+\contentsline {subsubsection}{\numberline {3.1.4.1}Features}{29}{subsubsection.3.1.4.1}
+\contentsline {subsubsection}{\numberline {3.1.4.2}Process}{29}{subsubsection.3.1.4.2}
+\contentsline {subsubsection}{\numberline {3.1.4.3}Implementation Notes}{29}{subsubsection.3.1.4.3}
+\contentsline {subsection}{\numberline {3.1.5}Lightweight 4over6}{29}{subsection.3.1.5}
+\contentsline {subsubsection}{\numberline {3.1.5.1}Features}{29}{subsubsection.3.1.5.1}
+\contentsline {subsubsection}{\numberline {3.1.5.2}Process}{29}{subsubsection.3.1.5.2}
+\contentsline {subsubsection}{\numberline {3.1.5.3}Implementation Notes}{29}{subsubsection.3.1.5.3}
+\contentsline {subsection}{\numberline {3.1.6}Stateless TUN}{29}{subsection.3.1.6}
+\contentsline {subsubsection}{\numberline {3.1.6.1}Features}{29}{subsubsection.3.1.6.1}
+\contentsline {subsubsection}{\numberline {3.1.6.2}Process}{29}{subsubsection.3.1.6.2}
+\contentsline {subsubsection}{\numberline {3.1.6.3}Implementation Notes}{29}{subsubsection.3.1.6.3}
+\contentsline {section}{\numberline {3.2}Security Issues}{29}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Traditional Network Security Issues}{29}{subsection.3.2.1}
+\contentsline {subsubsection}{\numberline {3.2.1.1}Denial of Service}{29}{subsubsection.3.2.1.1}
+\contentsline {subsubsection}{\numberline {3.2.1.2}Filtering}{30}{subsubsection.3.2.1.2}
+\contentsline {subsubsection}{\numberline {3.2.1.3}Port Randomization}{30}{subsubsection.3.2.1.3}
+\contentsline {subsubsection}{\numberline {3.2.1.4}Routing}{30}{subsubsection.3.2.1.4}
+\contentsline {subsubsection}{\numberline {3.2.1.5}Fragmentation}{30}{subsubsection.3.2.1.5}
+\contentsline {subsection}{\numberline {3.2.2}Address Sharing Security Issues}{31}{subsection.3.2.2}
+\contentsline {subsubsection}{\numberline {3.2.2.1}Mechanism Issues}{31}{subsubsection.3.2.2.1}
+\contentsline {subsubsection}{\numberline {3.2.2.2}UPnP-IGD}{31}{subsubsection.3.2.2.2}
+\contentsline {subsubsection}{\numberline {3.2.2.3}P.C.P}{31}{subsubsection.3.2.2.3}
+\contentsline {chapter}{\numberline {4}Methodology}{32}{chapter.4}
+\contentsline {section}{\numberline {4.1}Example}{32}{section.4.1}
+\contentsline {section}{\numberline {4.2}Challenges}{32}{section.4.2}
+\contentsline {section}{\numberline {4.3}Abstractions}{32}{section.4.3}
+\contentsline {section}{\numberline {4.4}Implementation}{32}{section.4.4}
+\contentsline {chapter}{\numberline {5}Conclusions}{33}{chapter.5}
+\contentsline {section}{\numberline {5.1}Contributions}{33}{section.5.1}
+\contentsline {section}{\numberline {5.2}Recommendations}{33}{section.5.2}
+\contentsline {section}{\numberline {5.3}Future Works}{33}{section.5.3}
+\contentsline {chapter}{\numberline {6}Project Plan}{34}{chapter.6}
+\contentsline {section}{\numberline {6.1}Year One}{34}{section.6.1}
+\contentsline {section}{\numberline {6.2}Year Two}{34}{section.6.2}
+\contentsline {section}{\numberline {6.3}Year Three}{35}{section.6.3}
+\contentsline {chapter}{References}{37}{section*.7}
+\contentsline {chapter}{\numberline {A}Example Appendix}{38}{appendix.A}
